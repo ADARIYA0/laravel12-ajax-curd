@@ -10,7 +10,7 @@ class item extends Model
 
     protected $primaryKey = 'id';
 
-    protected $keyType = 'inr';
+    protected $keyType = 'int';
 
     protected $fillable = ['item_name', 'status'];
 }
